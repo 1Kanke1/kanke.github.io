@@ -1,0 +1,446 @@
+body {
+	font-family: 'Sintony', sans-serif;
+	color: #5c6369;
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+p {
+	line-height: 1.8em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Playfair Display', serif;
+	font-weight: 700;
+	color: #14141d;
+}
+
+.yellow {
+	color: #FF0303;
+}
+
+/*--------------------*/
+/* Навигационное меню */
+/*--------------------*/
+
+
+
+.logo {
+
+	width: 130px;
+	height: 80px;
+}
+
+.menu {
+	margin-top: 25px;
+}
+
+.menu_item {
+	font-weight: 700;
+	font-size: 15px;
+} 
+
+html::-webkit-scrollbar {
+    width: 18px;
+    height: 30px;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: -webkit-gradient(linear,left top,left bottom,from(#FE3C53),to(#F86072));
+    background: linear-gradient(180deg,#FE3C53,#F86072);
+    border-radius: 20px;
+    box-shadow: inset 2px 2px 2px hsla(0,0%,100%,.25), inset -2px -2px 2px rgba(0,0,0,.25);
+}
+
+html::-webkit-scrollbar-track {
+    background: linear-gradient(90deg,#373844,#373844 1px,#373844 0,#373844);
+}
+
+.menu_item a {
+	color: #2c465a;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.cta {
+	margin-left: 70px;
+	margin-top: 3px;
+	background: linear-gradient(180deg,#FE3C53,#e52e71);
+	color: #FFFFFF;
+	font-size: 15px;
+	border-radius: 5px;
+	text-transform: uppercase;
+	padding: 10px 0;
+	display: block;
+	cursor: pointer;
+	width: 180px;
+	border: 0;
+	font-weight: 700;
+	text-align: center;
+}
+
+.cta:hover {
+	text-decoration: none;
+	color: #fff;
+}
+
+.book {
+	margin-top: 13px;
+}
+
+.book_icon {
+	background: url(../img/icons8-bookmark-24.png);
+	width: 24px;
+	height: 24px;
+	display: block;
+	margin-right: 5px;
+}
+
+.main-header {
+	border-radius: 5px;
+	padding: 8px 0;
+	z-index: 1;
+	height: 90px;
+	width: 100%;
+	background: #E0E0E0;
+	position: fixed;
+	box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+
+/*------------------------------------*/
+/* Фон и текст, в нутри главного фона */
+/*------------------------------------*/
+
+
+.offer {
+	background: url(../img/124.jpg);
+	height: 687px;
+	background-size: 100%;
+	opacity: 0.90;
+
+}
+
+.title {
+	padding: 160px 0;
+}
+
+.title_1 {
+	font-size: 50px;
+	color: #fff;
+	margin-top: -15px;
+} 
+
+.title_2 {
+	font-size: 50px;
+	color: #F90F4A ;
+	margin-top: -25px;
+}
+
+/*--------*/
+/* Звонок */
+/*--------*/
+
+.call {
+	background: #Fff;
+	border-bottom: 1px solid #D4D4D4;
+	padding: 30px 0;
+	border-radius: 5px;
+}
+
+.phone {
+	width: 550px;
+}
+
+.phone__text {
+	background: url(../img/6.png) no-repeat left center;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 700;
+	width: 250px;
+	padding-left: 60px;
+	padding-top: 5px;
+	
+
+}
+
+.phone__text span {
+ 	font-size: 16px;
+ 	margin-top: -4px;
+ 	display: block;
+
+}
+
+.phone__digits {
+	font-size: 32px;
+	font-family: 'Playfair Display', serif;
+	font-weight: 700;
+	color: #232322;
+	margin-left: 42px;
+	margin-top: -5px;
+
+}
+
+/*-----*/
+/* MBA */
+/*-----*/
+
+.about {
+	padding: 65px 0 100px;
+	border-bottom: 1px solid #D4D4D4;
+	background: #E0E0E0;
+}
+
+.history {
+	
+}
+
+.history__title {
+	font-size: 35px;
+	margin-bottom: 25px;
+}
+
+.history__text1 {
+	font-size: 14px;
+
+}
+
+.dp {
+	color: #fff;
+}
+
+.history__text2 {
+	font-size: 14px;
+}
+
+.podrobnee {
+	margin-top: 3px;
+	background: linear-gradient(180deg,#FE3C53,#e52e71);
+	color: #FFFFFF;
+	font-size: 14px;
+	border-radius: 5px;
+	text-transform: uppercase;
+	padding: 10px 0;
+	display: block;
+	cursor: pointer;
+	width: 180px;
+	border: 0;
+	font-weight: 700;
+	text-align: center;
+	
+}
+
+.history__button {
+	
+	width: 148px;
+	margin-top: 40px;
+}
+
+
+
+
+.food-imagess {
+	
+}
+
+.food-imagess__item {
+	border-radius: 5px;
+	box-shadow: 0 10px 70px #999897;
+	margin-bottom: 10px;
+	width: 270px;
+	height: 150px;
+}
+
+.food-imagess-down {
+	
+	margin-top: 50px;
+}
+
+.footer {
+	background: #373844;
+	color: #93989e;
+	font-size: 13px;
+	text-transform: uppercase;
+	padding: 72px 106px;
+}
+
+.socials {
+
+}
+
+.socials__item a {
+	width: 52px;
+	height: 52px;
+	border-radius: 50%;
+	display: block;
+}
+
+.socials__item_fb a {
+	background: #3b5998 url('../img/fb.png') no-repeat center center;
+}
+
+.socials__item_tw a {
+	background: #55acee url('../img/tw.png') no-repeat center center;
+	margin: 0 7px;
+}
+
+.socials__item_g a {
+	background: #dd4b39 url('../img/g.png') no-repeat center center;
+}
+
+.line {
+	background: #52535e;
+	height: 1px;
+	margin-top: 7px;
+	margin-top: 50px;
+}
+
+.credits {
+	margin-top: 43px;
+	text-align: center;
+}
+
+.modal2 {
+	display: none;
+	z-index: 1000;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+}
+
+.modal2__overlay {
+	background: rgba(0,0,0,0.8);
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+}
+
+.modal2__body {
+	width: 400px;
+	height: 200px;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	background: #fff;
+	margin-left: -200px;
+	margin-top: -100px;
+	border-radius: 10px;
+	box-shadow: 0 0 50px black;
+}
+
+.show {
+	display: block !important;
+}
+
+/*=================================================================
+	Цена
+==================================================================*/
+
+.bg {
+	
+}
+
+.price-table {
+    border: 1px solid #e3e3e3;
+    background: #EDF1F3;
+	
+}
+
+
+.price-table.featured {
+    -webkit-box-shadow: 0 4px 5px rgba(0,0,0,0.19);
+       -moz-box-shadow: 0 4px 5px rgba(0,0,0,0.19);
+            box-shadow: 0 4px 5px rgba(0,0,0,0.19);
+}
+
+.price-table > span {
+    color: #252525;
+    display: block;
+    font-size: 24px;
+    padding: 30px 0;
+    text-transform: uppercase;
+}
+
+.price-table .value {
+    background-color: #f8f8f8;
+    color: #727272;
+    padding: 20px 0;
+}
+
+.ddd {
+	margin-top: 50px;
+}
+
+.price-table.featured .value {
+    background-color: #009EE3;
+    color: #fff;
+}
+
+.price-table .value span {
+    display: inline-block;
+}
+
+.price-table .value span:first-child {
+    font-size: 32px;
+    line-height: 32px;
+}
+
+.bgg{
+	padding: 50px 0 0px;
+}
+
+.bg {
+
+	padding: 20px 0 40px;
+}
+
+.price-table .value span:nth-child(2) {
+    font-size: 65px;
+    line-height: 65px;
+    margin-bottom: 25px;
+}
+
+.price-table .value span:last-child {
+    font-size: 16px;
+}
+
+.price-table ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.price-table ul li {
+    border-top: 1px solid #e3e3e3;
+    display: block;
+    padding: 25px 0;
+
+}
+
+.price-table ul li a {
+    display: block;
+    text-transform: uppercase;
+}
+
+.price-table.featured ul li:last-child,
+.price-table ul li:last-child:hover {
+    background-color: #009EE3;
+}
+
+.price-table.featured ul li:last-child a,
+.price-table ul li:last-child:hover a {
+    color: #fff;
+}
+
+
+
+
+
